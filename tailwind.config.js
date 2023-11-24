@@ -3,16 +3,33 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    colors: {
+      white: '#FFFFFF',
+      gray: '#4D5254',
+      grayOpacity: '#CFCFCF',
+      darkBlue: '#252F3D',
+      lightBlue: '#2C7EF8',
+      green: '#59AE43',
+      lightGreen: '#85BF55',
+      mint: '#5BB59A',
+      red: '#F82C2C',
+      yellow: '#FFC000',
+      opacityBlue: '#EDF3FD'
     },
+    extend: {}
   },
-  plugins: [],
-}
+  plugins: []
+};
+
+
+
+
+
+
+
+
+
+
